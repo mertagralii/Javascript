@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telefon Rehberi</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!--İd mutlaka eşsiz olmalı ve sayfada 1 kez kullanılmalı-->
+    <form id="phoneBookForm">
+      <p><input required type="text" name="firstName" placeholder="Ad" /></p>
+      <p><input required type="text" name="lastName" placeholder="Soyad" /></p>
+      <p>
+        <input
+          required
+          type="email"
+          name="emailAddress"
+          placeholder="E-Posta Adresi"
+        />
+      </p>
+      <p>
+        <input
+          required
+          type="tel"
+          name="phoneNumber"
+          placeholder="Telefon Numarası"
+        />
+      </p>
+      <p><button>Kaydet</button></p>
+    </form>
+    <button id="listBtn">Listele</button>
+  </body>
+</html>
